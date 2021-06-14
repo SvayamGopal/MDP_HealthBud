@@ -1,3 +1,8 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -10,16 +15,6 @@
 p {
     font-family: 'Lateef', cursive; 
     font-size: 25px;
-}
-
-#GainLi {
-    font-family: 'Lateef', cursive; 
-    font-size: 25px;
-    margin-left: 30px;
-}
-
-#GainUl {
-    margin-left: 30px;
 }
 
 
@@ -54,7 +49,7 @@ hr {
     display: flex;
     justify-content: space-between;
     height: 60px;
-    z-index: 1;
+    z-index: 1000;
     width: 100%;
     max-width: 1300px;
     margin: 0 auto;
@@ -162,8 +157,7 @@ display: block;
 
 .positioning{
     margin-top: 2em;
-    margin-left: 5em;
-    margin-bottom: 1em;
+    margin-left: 3em;
 }
 
 input[type=text], input[type=password] {
@@ -227,7 +221,7 @@ button[type=submit].google{
 }
 
 .IntroContainer {
-    max-width: 1300px;
+    max-width: 1200px;
     margin: auto;
     background: #ffffff;
     font-size: 24px;
@@ -264,7 +258,17 @@ button[type=submit].google{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     width: 300px;
+    height: 250px;
     margin: 32px 0;
+    border-radius: 200px;
+}
+
+.Round {
+    border-radius: 50px;
+    border-top-left-radius: 300px;
+    border-top-right-radius: 300px;
+
+
 }
 
 .card:hover {
@@ -307,7 +311,7 @@ button[type=submit].google{
   
   .popup {
     margin: 100px auto;
-    padding: 20px;
+    padding: 20px 0px 20px 20px;
     background: rgba(255, 255, 255, 0.877);
     border-radius: 5px;
     width: 70%;
@@ -344,7 +348,8 @@ button[type=submit].google{
     height: 150px;
     border-top: 2px solid #76d8da;
     color: white;
-    
+    padding: 20px;
+    padding-top: 30px;
     width: auto;
     background-color: rgb(34, 33, 33);
     visibility: 30%;
@@ -356,339 +361,102 @@ button[type=submit].google{
     height: 400px;
 }
 
-iframe{
+.Border1 {
     border:6px solid #76d8da;
     border-style: outset;
     border-radius: 25px;
 }
-/* ARPITA CSS */
 
-
-.Diet {
-    background: url("Images/healthy.jpg") no-repeat center;
-    background-size: cover;
-    height: 350px;
-}
-.bottomm { 
-    font-size: 100px;
-    position: absolute;
-    bottom: 4em;
-    left: 4em;
-    transform: translate(-50%, -50%);}
-
-.card1 {
-        
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-        transition: 0.3s;
-        width: 300px;
-        
-        margin: 30px 16px
-    }
-.card1:hover {
-        box-shadow: 0 8px 30px 0 #116466;
-    }
-#st-box1 { 
-        float:left; 
-        background-color:white; 
-        margin-left: 120px;
-    } 
-#nd-box1 { 
-        float:left; 
-        background-color:white;  
-        margin-left:75px; 
-    } 
-
-#cd-box1 { 
-        float:left; 
-        background-color:white;  
-        margin-left:75px; 
-        
-    } 
-a.hyper{
-    color: black;
+#body {
+    background: #0a2a43;
+    min-height: 1500px;
 }
 
-a:visited.hyper{
-    text-decoration: none;
-    color: black;
-    
-}
-a:active.hyper{
-    text-decoration: none;
-    color: black;
-    
-}
-
-
-.Gain{
-    background-image: url("Images/wt.jpg");
-    width: 100vw;
-    height: 87vh; 
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
+#section
+{
     position: relative;
-    } 
-
-.GainContainer {
-    width: 1300px;
-    margin: 20px;
-    background: #ffffff;
-    font-size: 24px;
-    padding: 20px auto;
-    
-    position: relative;
-    text-align: center;
-    border-radius: 5px;
-    padding: 0 25px;
-}
-
-#st-box2 { 
-        float:left; 
-        background-color:white; 
-        margin-left: 80px;
-    } 
-#nd-box2 { 
-        float:left; 
-        background-color:white;  
-        margin-left:75px; 
-    } 
-
-#cd-box2 { 
-        float:left; 
-        background-color:white;  
-        margin-left:75px; 
-        
-    } 
-
-.Loss{
-    background-image: url("Images/loss.jpg");
-    width: 100vw;
-    height: 87vh; 
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    position: relative;
-}
-
-.Digestive{
-    background-image: url("Images/sto.png");
-    width: 100vw;
-    height: 87vh; 
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    position: relative;
-}
-.HealthySkin{
-    background-image: url("Images/HealthySkin.jpg");
-    width: 100vw;
-    height: 87vh; 
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    position: relative;
-}
-
-.Gcontainer {
-    display: table;
-    width: 100%;
-    font-size: 24px;
-    padding: 0 25px;
-    position: relative;
-    margin: auto;
-    border-radius: 5px;
-  }
-
-.left-half {
-    background: #ffffff;;
-    left: 25px;
-    position: absolute;
-    width: 70%;
-    height: auto;
-    padding-top: 15px;
-    border-bottom-left-radius: 5px;
-    border-top-left-radius: 5px;
-
-}
-
-.right-half {
-    background: #ffffff;
-    position: absolute;
-    right: 25px;
-    width: 30%;
-    height: 8491px;
-    padding-top: 15px;
-    border-bottom-right-radius: 5px;
-    border-top-right-radius: 5px;
-
-}
-
-.vert-container{
-    width:360px;
-    height:auto;
-    background:white;
-    margin-left: 2;
+    width:100%;
+    height: 100vh;
     overflow: hidden;
-    
-}
-.horz-container{
-    width: 360px;
-    background: rgb(255, 255, 255);
-    margin-left: 20px;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#myImg{
-    cursor: pointer;
-    transition: 0.2s;
+#section:before
+{
+   content: '';
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   height: 100px;
+   background: linear-gradient(to top, #0a2a43,transparent);
+   z-index: 10;
 }
 
-#myImg:hover{
-    opacity:0.7
+#section:after
+{
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background:#0a2a43;
+   z-index: 10;
+   mix-blend-mode: color;
 }
 
-#myImg2{
-    cursor: pointer;
-    transition: 0.2s;
-}
-
-#myImg2:hover{
-    opacity:0.7
-}
-
-.modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
-    padding-bottom: 100px;
-    left: 0;
-    top: 0;
-    border-radius: 2px;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: scroll; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
-    
-  }
-  
-  /* Modal Content (image) */
-  .modal-content {
-    margin: auto;
-    display: block;
-    width: 80%;
-    padding:30px;
-    max-width: 700px;
-    overflow:auto;
-    background-color: rgb(249, 249, 253);
-    border: 4px solid rgb(4, 107, 121);
-    
-  }
-  
- 
- 
-  .des1{
-    font-family: 'Abel';
-    font-size: 25px
-}
-  a.des1:hover{
-      transition: 0.2s;
-      color: darkgray;
-      opacity: 0.5;
-  }
-  a.des1:visited{
-    color: black;
-  }
-  /* Add Animation */
-  .modal-content, #caption {  
-    -webkit-animation-name: zoom;
-    -webkit-animation-duration: 0.6s;
-    animation-name: zoom;
-    animation-duration: 0.6s;
-  }
-  
-  @-webkit-keyframes zoom {
-    from {-webkit-transform:scale(0)} 
-    to {-webkit-transform:scale(1)}
-  }
-  
-  @keyframes zoom {
-    from {transform:scale(0)} 
-    to {transform:scale(1)}
-  }
-  
-  /* The Close Button */
-  .close,.close2 {
+#section img
+{
     position: absolute;
-    top: 15px;
-    right: 35px;
-    color: #f1f1f1;
-    font-size: 40px;
-    font-weight: bold;
-    transition: 0.3s;
-  }
-  
-  .close:hover,
-  .close:focus,
-  .close2:hover,
-  .close2:focus {
-    color: #bbb;
-    text-decoration: none;
-    cursor: pointer;
-  }
-  
-  /* 100% Image Width on Smaller Screens */
-  @media only screen and (max-width: 700px){
-    .modal-content {
-      width: 100%;
-    }
-  }
-  ul.nut{
-    font-family: 'Abel';
-    font-size: 25px;
-    margin-left: 30px;
-  }
-  li.nutr{
-    font-family: 'Abel';
-    font-size: 25px;
-    margin-left: 30px;
-  }
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
 
-  p.bene{
-    font-family: 'Abel';
-    font-size: 25px;
-    margin-left: 30px;
-  }
+#text
+{
+    left: 13%;
+    position: relative;
+    color: #fff;
+    font-size: 10em;
+    z-index: 1;
+}
 
-  .summary{
-    background-color: #d0d0d4;
-     font-family: Abel; 
-     width:100%; 
-     font-size: 25px;
-     padding: 25px; 
-     text-align: center;
-     border-left: 5px solid;
-     border-color: #125455;
-  }
-  a.Table{
-    text-decoration: none; 
-    transition:0.5s ; 
-    font-family:Abel ;
-    font-size: 20px;
-    color: black;
-    font-family: Abel;
+#medi
+{
+    z-index: 2;
+}
 
-  }
-  a.Table:hover{
-      color: #116466;
-  }
-  .table-container{
-      padding: 20px;
-      color: rgb(11, 32, 32);
-      background-color: rgb(222, 236, 236);
-      margin-left: 20px;
-      
-  }
+.center {
+    padding-left: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+#left { 
+    float:left;  
+    margin-left:0px; 
+    width: 50%;
+} 
+#right { 
+    float:right; 
+    margin-right: 0px;
+    width: 50%;
+}
 
 
-
-/* END ARPITA CSS */
+#left1 { 
+    float:left;  
+    margin-left:0px; 
+    width: 7%;
+} 
+#right1 { 
+    float:right; 
+    margin-right: 0px;
+    width: 50%;
+}

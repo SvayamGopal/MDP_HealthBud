@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HealthBud.com/Benefits</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lateef&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="style1.css">
+    </head>
+    <body>
+        <header class="header">
+            <nav class="navbar">
+                <div class="navbar__container">
+                    <a href="Index.html" id="navbar__logo">HealthBud</a><img src="Images/1.png" style="height: 75px;">
+                    <div class="navbar__toggle">
+                </div>
+                <ul class="navbar__menu">
+    
+                    <li class="navbar__item" id="dropdown">
+                        <a href="Workouts.html" class="navbar__links">Workouts</a>
+                        <div class="dropdown-content" id="left">
+                            <ul>
+                                <li class="dropdown-links">
+                                    <a href="Exercise.html" >Excercises</a>
+                                </li>
+                                <li class="dropdown-links">
+                                    <a href="Tutorials.html" >Tutorials</a>
+                                </li>
+                                <li class="dropdown-links">
+                                    <a href="Routines.html" >Routines</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+    
+                    <li class="navbar__item" id="dropdown">
+                        <a href="#" class="navbar__links">Meditation</a>
+                        <div class="dropdown-content">
+                            <ul>
+                                <li class="dropdown-links">
+                                    <a href="Benefits.html" >Benefits</a>
+                                </li>
+                                <li class="dropdown-links">
+                                    <a href="Asanas.html" >Asanas</a>
+                                </li>
+                                <li class="dropdown-links">
+                                    <a href="Chakras.html" >Chakras</a>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="navbar__item" id="dropdown">
+                        <a href="Meal.html" class="navbar__links">Meal Plans</a>
+                        <div class="dropdown-content">
+                            <ul>
+                                <li class="dropdown-links">
+                                    <a href="Recipes.html" >Recipes</a>
+                                </li>
+                                <li class="dropdown-links">
+                                    <a href="Services.html" >dietary tips</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+    
+                    <li class="navbar__item" id="dropdown">
+                        <a href="Experts.html" class="navbar__links">Experts</a>
+                        <div class="dropdown-content">
+                            <ul>
+                                <li class="dropdown-links">
+                                    <a href="Aricles.html" >Articles</a>
+                                </li>
+                                <li class="dropdown-links">
+                                    <a href="Reviews.html" >Reviews</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="navbar__btn">
+                        <a href="signup.html"><img src="Images/user.png" height="40px"></a>
+                    </li>
+                </ul>
+                </div>
+            </nav>
+            </header>
+    
+            <main id="body">
+                <section id="section">
+                    <img src="Images\bg.jpg" id="bg">
+                    <img src="Images\moon.png" id="moon">
+                    <img src="Images\mountain.png" id="mountain">
+                    <img src="Images\medi.png" id="medi">
+                    <h2 id="text">Benefits</h2>
+                </section>
+                <script type="text/javascript">
+                    let bg = document.getElementById("bg")
+                    let moon = document.getElementById("moon")
+                    let mountain = document.getElementById("mountain")
+                    let med = document.getElementById("med")
+                    let text = document.getElementById("text")
+        
+                    window.addEventListener('scroll',function(){
+                        var value = window.scrollY;
+        
+                        bg.style.top = value * 0.5 + 'px';
+                        moon.style.left = -value * 0.5 + 'px';
+                        mountain.style.top = -value * 0.15 + 'px';
+                        medi.style.top = value * 0.15 + 'px';
+                        text.style.top = value * 1 + 'px';
+        
+                    })
+                </script>
+                <div class="center" style="color: #fff;">
+                    <div id="left">
+                        <br><br><br>
+                        <p style="font-size: 55px;">5 Physical Benefits of Meditation:</p>
+                        
+                        <p style="font-family: Times New Roman, Times, serif; font-size: 19px;">
+                        As an individual becomes regular with practicing meditation, there is a visible increase in joy, peace, and enthusiasm. This happens because of the increased prana in the body.
+
+                        On the physical level, meditation:
+                        </p>
+                        <br>
+                        <ul style="padding-left:25px;"> 
+                        <li style=" font-family: 'Times New Roman', Times, serif; font-size: 19px;">Lowers high blood pressure</li>
+                        <li style=" font-family: 'Times New Roman', Times, serif; font-size: 19px;">Lowers the levels of blood lactate, reducing anxiety attacks</li>
+                        <li style=" font-family: 'Times New Roman', Times, serif; font-size: 19px;">Decreases tension-related pain (headaches, ulcers, insomnia, muscle, and joint problems)</li>
+                        <li style=" font-family: 'Times New Roman', Times, serif; font-size: 19px;">Increases serotonin production that improves mood and behavior</li>
+                        <li style=" font-family: 'Times New Roman', Times, serif; font-size: 19px;">Strengthens the immune system</li>
+                        <li style=" font-family: 'Times New Roman', Times, serif; font-size: 19px;">Increases energy levels</li>
+                        </ul>
+                    </div>
+                    <div id="right">
+                        <img src="Images/Yoga.png" alt="" style="height: 400px;">
+                    </div>
+                </div>
+                <br><br><br>
+                <hr style=" border: 2px solid #75dddf; width: 1100px; margin: auto;">
+                <div class="center" style="color: #fff;">
+                    <br><br>
+
+                    <p style=" font-size: 55px;">11 Mental Benefits of Meditation:</p>
+                    <p style="font-family: Times New Roman, Times, serif; font-size: 19px;">
+                    Meditation brings the brainwave pattern into an alpha state that promotes healing. The mind becomes fresh, delicate and beautiful. It cleanses and nourishes you from within and calms you, whenever you feel overwhelmed, unstable, or emotionally shut down.
+
+                    With regular practice of meditation:
+                    </p>
+                    <br><br>
+                    <div >
+                        <ul style="padding-left:25px;">
+                        <li style=" font-family: 'Times New Roman', Times, serif; font-size: 19px;">Anxiety decreases</li>
+                        <li style=" font-family: 'Times New Roman', Times, serif; font-size: 19px;">Emotional stability improves</li>
+                        <li style=" font-family: 'Times New Roman', Times, serif; font-size: 19px;">Creativity increases</li>
+                        <li style=" font-family: 'Times New Roman', Times, serif; font-size: 19px;">Happiness increases</li>
+                        <li style=" font-family: 'Times New Roman', Times, serif; font-size: 19px;">Intuition develops</li>
+                        <li style=" font-family: 'Times New Roman', Times, serif; font-size: 19px;">Gain clarity and peace of mind</li>
+                        <li style=" font-family: 'Times New Roman', Times, serif; font-size: 19px;">Mental agility increases</li>
+                        <li style=" font-family: 'Times New Roman', Times, serif; font-size: 19px;">Relaxes the mind</li>
+                        <li style=" font-family: 'Times New Roman', Times, serif; font-size: 19px;">Better memory and retention</li>
+                        <br><br>
+                        </ul>
+                    </div>
+
+                    <p>
+                    Studies have shown that the brains of 50-year-old meditators have the same amount of grey matter in their prefrontal cortex as normal 20-year-olds do. This translates into the same abilities to remember things and decision-making.
+                    </p>
+                </div>
+                <br><br>
+                <hr style=" border: 2px solid #75dddf; width: 1100px; margin: auto;">
+                <br><br>
+            </main>
+    </body>
+</html>
